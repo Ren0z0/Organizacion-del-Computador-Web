@@ -1,16 +1,9 @@
 <div class="nav-desktop-container">
     <header class="header">
-        <img src="{{ url_for('static', filename='/images/logos/logo-nav.png') }}" alt="logo">
         <nav class="navbar">
             <ul class="desktop-navbar">
-
-                {% for data in lista %}
-
-                    <li> <a href="{{url_for(data)}}">{{data}}</a> </li>
-
-                {%  endfor %}
-
+                <li><a href="{{ url_for('home') }}">Home</a></li>
             </ul>
         </nav>
     </header>
-</div> 
+</div>

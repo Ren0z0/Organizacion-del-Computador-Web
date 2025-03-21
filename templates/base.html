@@ -12,12 +12,10 @@
     
 <body>
     <div class="container">    
-        {% include 'nav_desktop.html'%}
 
         {% block content %}            
         {% endblock %}
         
-        {% include 'footer.html' %}
     </div>
     
     <script src="{{ url_for('static', filename='js/main.js') }}"></script>
