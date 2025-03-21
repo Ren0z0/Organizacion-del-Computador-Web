@@ -1,5 +1,136 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    background-color: #393939;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #393939;
+    color: #C5E1A5;
+}
+
+.container{
+    box-sizing: border-box;
+    max-width: 768px;
+    width: 100%;
+    padding: 8px;
+    background-color: #55684d
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
 .img-profes {
     width: 64px;
     height: 64px;
     border-radius: 50px;
+    margin-right: 10px;
 }
+
+.zilla-slab-light {
+    font-family: "Zilla Slab", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .zilla-slab-regular {
+    font-family: "Zilla Slab", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .zilla-slab-medium {
+    font-family: "Zilla Slab", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .zilla-slab-semibold {
+    font-family: "Zilla Slab", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .zilla-slab-bold {
+    font-family: "Zilla Slab", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .zilla-slab-light-italic {
+    font-family: "Zilla Slab", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .zilla-slab-regular-italic {
+    font-family: "Zilla Slab", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .zilla-slab-medium-italic {
+    font-family: "Zilla Slab", serif;
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: 10px;
+    text-align: center;
+    margin-bottom: 0px;
+    color: #C5E1A5;
+  }
+  
+  .zilla-slab-semibold-italic {
+    font-family: "Zilla Slab", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .zilla-slab-bold-italic {
+    font-family: "Zilla Slab", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  
+.roboto-500 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: lighter;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    text-align: center;
+    margin-top: 2px;
+    color: #C5E1A5;
+  }
+
+  .center{
+    text-align: center;
+  }
+
+  .left{
+    text-align: justify;
+  }
+
+  .link{
+    color: #e1d9e7d4;
+    font-size: 28px;
+    text-decoration: none;
+  }
+  
+  .vCenter{
+    vertical-align: middle;
+  }
+
+  .row{
+    display: flex;
+    flex-direction: row;
+  }
