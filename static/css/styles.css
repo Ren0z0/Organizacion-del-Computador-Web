@@ -1,24 +1,29 @@
 html{
-    margin: 0px;
-    padding: 0px;
-    background-color: #393939;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/paseo-colon.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+  
 }
 
 body{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: #393939;
-    color: #C5E1A5;
-}
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+  }
+  
 
 .container{
-    box-sizing: border-box;
-    max-width: 768px;
-    width: 100%;
+    max-width: 800px;
+
     padding: 8px;
-    background-color: #55684d
+    background-color: #55684d;
+    margin: 0 auto;
 }
+
 
 ul{
     list-style-type: none;
