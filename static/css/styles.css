@@ -1,141 +1,138 @@
-html{
-    margin: 0;
-    padding: 0;
-    background-image: url('../images/paseo-colon.jpg');
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-  
-}
+/*html{
+  margin: 0px;
+  padding: 0px;
+  background-color: lightblue;
+}*/
 
 body{
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    height: 100vh;
-  }
-  
-
-.container{
-    max-width: 800px;
-
-    padding: 8px;
-    background-color: #55684d;
-    margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #393939;
+  color: #C5E1A5;
+  background-image: url('../img/aulapaseocolon.jpg');
+  background-size: cover;
 }
 
+.container{
+  box-sizing: border-box;
+  max-width: 768px;
+  width: 100%;
+  padding: 8px;
+  background-color: #55684d
+}
 
 ul{
-    list-style-type: none;
+  list-style-type: none;
 }
 
 li{
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .img-profes {
-    width: 64px;
-    height: 64px;
-    border-radius: 50px;
-    margin-right: 10px;
+  width: 64px;
+  height: 64px;
+  border-radius: 50px;
+  margin-right: 10px;
 }
 
 .zilla-slab-light {
-    font-family: "Zilla Slab", serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .zilla-slab-regular {
-    font-family: "Zilla Slab", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .zilla-slab-medium {
-    font-family: "Zilla Slab", serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .zilla-slab-semibold {
-    font-family: "Zilla Slab", serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  .zilla-slab-bold {
-    font-family: "Zilla Slab", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .zilla-slab-light-italic {
-    font-family: "Zilla Slab", serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .zilla-slab-regular-italic {
-    font-family: "Zilla Slab", serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .zilla-slab-medium-italic {
-    font-family: "Zilla Slab", serif;
-    font-weight: 500;
-    font-style: italic;
-    letter-spacing: 10px;
-    text-align: center;
-    margin-bottom: 0px;
-    color: #C5E1A5;
-  }
-  
-  .zilla-slab-semibold-italic {
-    font-family: "Zilla Slab", serif;
-    font-weight: 600;
-    font-style: italic;
-  }
-  
-  .zilla-slab-bold-italic {
-    font-family: "Zilla Slab", serif;
-    font-weight: 700;
-    font-style: italic;
-  }
+  font-family: "Zilla Slab", serif;
+  font-weight: 300;
+  font-style: normal;
+}
 
-  
+.zilla-slab-regular {
+  font-family: "Zilla Slab", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.zilla-slab-medium {
+  font-family: "Zilla Slab", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.zilla-slab-semibold {
+  font-family: "Zilla Slab", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.zilla-slab-bold {
+  font-family: "Zilla Slab", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.zilla-slab-light-italic {
+  font-family: "Zilla Slab", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.zilla-slab-regular-italic {
+  font-family: "Zilla Slab", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.zilla-slab-medium-italic {
+  font-family: "Zilla Slab", serif;
+  font-weight: 500;
+  font-style: italic;
+  letter-spacing: 10px;
+  text-align: center;
+  margin-bottom: 0px;
+  color: #C5E1A5;
+}
+
+.zilla-slab-semibold-italic {
+  font-family: "Zilla Slab", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.zilla-slab-bold-italic {
+  font-family: "Zilla Slab", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
 .roboto-500 {
-    font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: lighter;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-    text-align: center;
-    margin-top: 2px;
-    color: #C5E1A5;
-  }
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: lighter;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  text-align: center;
+  margin-top: 2px;
+  color: #C5E1A5;
+}
 
-  .center{
-    text-align: center;
-  }
+.center{
+  text-align: center;
+}
 
-  .left{
-    text-align: justify;
-  }
+.left{
+  text-align: justify;
+}
 
-  .link{
-    color: #e1d9e7d4;
-    font-size: 28px;
-    text-decoration: none;
-  }
-  
-  .vCenter{
-    vertical-align: middle;
-  }
+.link{
+  color: #e1d9e7d4;
+  font-size: 22px;
+  text-decoration: none;
+}
 
-  .row{
-    display: flex;
-    flex-direction: row;
-  }
+.vCenter{
+  vertical-align: middle;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
